@@ -1,0 +1,15 @@
+update_interval: 600
+sops_secrets_discovery: false
+auto_rotate: false
+always_pull_containers: true
+
+repos:
+  cloudflared:
+  url: https://github.com/Inland-Regional-Center/cloudflared.git
+
+stacks:
+  cloudflared:
+    repo: cloudflared
+    branch: main
+    compose_file: cloudflared.yaml
+    always_pull_containers: true

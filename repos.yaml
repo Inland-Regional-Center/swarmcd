@@ -1,0 +1,2 @@
+cloudflared:
+  url: https://github.com/Inland-Regional-Center/cloudflared.git

@@ -1,0 +1,4 @@
+cloudflared:
+  repo: cloudflared
+  branch: main
+  compose_file: cloudflared.yaml

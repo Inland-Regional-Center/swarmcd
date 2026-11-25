@@ -1,8 +1,6 @@
 services:
   swarm-cd:
     image: ghcr.io/m-adawi/swarm-cd:1.11.0
-    ports:
-     - "8080:8080"
     deploy:
       mode: replicated
       replicas: 1

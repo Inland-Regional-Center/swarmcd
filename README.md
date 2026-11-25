@@ -1,1 +1,1 @@
-SwarmCD configuration.
+SwarmCD deployment and config.

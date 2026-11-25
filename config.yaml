@@ -5,7 +5,7 @@ always_pull_containers: false
 
 repos:
   cloudflared:
-  url: https://github.com/Inland-Regional-Center/cloudflared.git
+    url: https://github.com/Inland-Regional-Center/cloudflared.git
 
 stacks:
   cloudflared:
